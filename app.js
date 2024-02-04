@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const img = createImage("https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif", "h-[200px]");
       const question = createMessage("Czy zostaniesz moją Walentynką 👉👈?", "text-4xl my-4");
       const yesButton = createButton("TAK", "bg-green-500 hover:bg-green-700", handleYesClick, yesButtonSize());
-      const noButton = createButton(noCount === 0 ? "No" : getNoButtonText(), "bg-red-500 hover:bg-red-700", handleNoClick);
+      const noButton = createButton(noCount === 0 ? "Nie" : getNoButtonText(), "bg-red-500 hover:bg-red-700", handleNoClick);
 
       app.appendChild(img);
       app.appendChild(question);
