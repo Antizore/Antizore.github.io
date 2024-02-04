@@ -67,22 +67,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const getNoButtonText = () => {
     const phrases = [
-      "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
-      "Change of heart?",
-      "Wouldn't you reconsider?",
-      "Is that your final answer?",
-      "You're breaking my heart ;(",
+      "Nie",
+      "Na pewno?",
+      "Ale naprawdę?",
+      "Przemyśl to, proszę!",
+      "Ostatnia szansa :c",
+      "Na pewno nie?",
+      "Nie pożałujesz!",
+      "No zastanów się mocniej!",
+      "Ale na pewno, na pewno?",
+      "To może być twoja ostatnia szansa!",
+      "Miej litość!",
+      "Nie miej serca z lodu :c",
+      "A jednak?",
+      "A może jednak?",
+      "Czy to Twoja ostateczna odpowiedź?",
+      "Łamiesz mi serduszko ;(",
     ];
     return phrases[Math.min(noCount, phrases.length - 1)];
   };
