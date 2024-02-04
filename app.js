@@ -8,13 +8,13 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (yesPressed) {
       const img = createImage("https://media.tenor.com/gUiu1zyxfzYAAAAi/bear-kiss-bear-kisses.gif");
-      const message = createMessage("Ok yay!!!");
+      const message = createMessage("TAAAAK!!!");
       app.appendChild(img);
       app.appendChild(message);
     } else {
       const img = createImage("https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif", "h-[200px]");
-      const question = createMessage("Will you be my Valentine?", "text-4xl my-4");
-      const yesButton = createButton("Yes", "bg-green-500 hover:bg-green-700", handleYesClick, yesButtonSize());
+      const question = createMessage("Czy zostaniesz moją Walentynką 👉👈?", "text-4xl my-4");
+      const yesButton = createButton("TAK", "bg-green-500 hover:bg-green-700", handleYesClick, yesButtonSize());
       const noButton = createButton(noCount === 0 ? "No" : getNoButtonText(), "bg-red-500 hover:bg-red-700", handleNoClick);
 
       app.appendChild(img);
